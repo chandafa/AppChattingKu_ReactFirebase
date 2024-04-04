@@ -160,8 +160,8 @@ export default function Chat() {
         })}
       </div>
 
-      <form className="w-full h-16 flex px-6 items-center bg-gradient-to-r from-blue-500 to-blue-700 fixed bottom-0 left-0 gap-1" onSubmit={handleMessage}>
-        <input type="text" className="rounded-full px-4 bg-white h-10 flex-1" id="message" />
+      <form className="w-full h-16 flex px-4 items-center bg-gradient-to-r from-blue-500 to-blue-700 fixed bottom-0 left-0 gap-1" onSubmit={handleMessage}>
+        <input type="text" className="rounded-full w-[80%] mr-1 p-2 bg-white h-10 flex-1" id="message" placeholder="Masukan pesan anda..." />
         <button className="h-10 w-10 bg-blue-500 text-white rounded-full">{"➤"}</button>
       </form>
     </main>
